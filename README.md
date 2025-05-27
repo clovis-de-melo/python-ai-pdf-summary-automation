@@ -1,1 +1,7 @@
-# python-ai-pdf-summary-automation
+# Python & AI: PDF Summary Automation
+
+## Dev commands
+
+```
+pip install pypdf2
+```
