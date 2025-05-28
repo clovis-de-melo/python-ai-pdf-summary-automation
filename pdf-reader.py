@@ -10,3 +10,14 @@ with open(file_path, "rb") as file:
 
 print("PDF content")
 print(text)
+
+# Function taken from official PyPDF2 documentation
+
+# https://pypdf2.readthedocs.io/en/3.x/user/extract-text.html
+
+""" from PyPDF2 import PdfReader
+
+reader = PdfReader(r"C:\Users\meloc\Downloads\Cracking-Codes-with-Python.pdf")
+page = reader.pages[0]
+print(page.extract_text()) """
+
